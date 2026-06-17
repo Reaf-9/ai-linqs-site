@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Linqs｜中小企業のためのAI導入パートナー｜研修から定着まで“共に”</title>
+<meta name="description" content="AI Linqsは、研修やツール導入で終わらせず、御社の現場に合わせてAIを設計し定着まで伴走するAI導入パートナーです。属人化・確認待ち・人手不足の課題を、経営者と“共に”解決します。まずはLINEで無料相談を。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Linqs｜中小企業のためのAI導入パートナー">
+<meta property="og:description" content="研修やツール導入で終わらせない。現場に合わせて設計し、定着まで“共に”伴走するAI導入パートナー。">
+<meta property="og:site_name" content="AI Linqs">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Shippori+Mincho+B1:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ 背景“世界”レイヤー（スクロールでシーンがクロスフェード） ============ -->
+<!-- [要確認] 各シーンは自前生成SVGで代用中。本番は正規ライセンスの写真に差し替え：
+     scene1=テクノロジー(青プレクサス) / scene2=人のシルエット / scene3=協力・握手 / scene4=街 -->
+<div class="world" id="world" aria-hidden="true">
+  <div class="scene scene--1" data-anchor="top"></div>
+  <div class="scene scene--2" data-anchor="int-1"></div>
+  <div class="scene scene--3" data-anchor="int-2"></div>
+  <div class="scene scene--4" data-anchor="int-3"></div>
+  <div class="world__grain"></div>
+</div>
+
+<!-- ============ ヘッダー ============ -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#top" class="logo" aria-label="AI Linqs トップへ">
+      <span class="logo__mark">AI</span><span class="logo__text">Linqs</span>
+    </a>
+    <nav class="gnav" id="gnav" aria-label="グローバルナビゲーション">
+      <ul class="gnav__list">
+        <li><a href="index.html">トップ</a></li>
+        <li><a href="services.html">サービス</a></li>
+        <li><a href="cases.html">実績</a></li>
+        <li><a href="about.html">会社概要</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn--line gnav__cta" data-line-cta>
+        <svg class="icon-line" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C6.5 2 2 5.7 2 10.2c0 4 3.5 7.4 8.3 8.1.3.07.76.22.87.5.1.26.07.66.03.92l-.14.85c-.04.26-.2 1 .9.55s5.9-3.48 8.06-5.96C21.4 13.6 22 12 22 10.2 22 5.7 17.5 2 12 2Z"/></svg>
+        LINEで無料相談
+      </a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false" aria-controls="gnav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ ヒーロー（scene1：テクノロジー） ============ -->
+  <section class="hero">
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <p class="hero__eyebrow reveal">中小企業のための AI 導入パートナー</p>
+      <h1 class="hero__title reveal" data-delay="1">
+        <span class="line">人とAIの</span>
+        <span class="line accent">ハイブリッド経営</span>
+        <span class="line">を、当たり前に。</span>
+      </h1>
+      <p class="hero__lead reveal" data-delay="2">
+        研修やツール導入で終わらせない。御社の現場に合わせてAIを設計し、<br class="pc-only">
+        使い続けられる状態まで“共に”伴走する。それがAI Linqsです。
+      </p>
+      <div class="hero__cta reveal" data-delay="3">
+        <a href="contact.html" class="btn btn--line btn--lg" data-line-cta>
+          <svg class="icon-line" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C6.5 2 2 5.7 2 10.2c0 4 3.5 7.4 8.3 8.1.3.07.76.22.87.5.1.26.07.66.03.92l-.14.85c-.04.26-.2 1 .9.55s5.9-3.48 8.06-5.96C21.4 13.6 22 12 22 10.2 22 5.7 17.5 2 12 2Z"/></svg>
+          LINEで無料AI相談
+        </a>
+        <a href="services.html" class="btn btn--glass btn--lg">サービスを見る</a>
+      </div>
+      <ul class="hero__assure reveal" data-delay="4"><li>完全無料</li><li>売り込みなし</li><li>LINEで気軽に</li></ul>
+    </div>
+    <a href="#problems" class="hero__scroll" aria-label="下へスクロール"><span></span>SCROLL</a>
+  </section>
+
+  <!-- ============ 課題提起 ============ -->
+  <section class="section problems" id="problems">
+    <div class="container">
+      <p class="section__eyebrow reveal">ISSUES</p>
+      <h2 class="section__title reveal">こんな状況、ありませんか？</h2>
+      <p class="section__sub reveal">ひとつでも当てはまるなら、AIで変えられる余地があります。</p>
+      <div class="cards cards--3">
+        <div class="card pcard reveal"><div class="pcard__no">01</div><h3 class="card__title">確認が、社長に集まる</h3><p>判断や承認が経営者に集中し、<strong>売上が伸びるほど業務が詰まる</strong>。気づけば現場が止まる原因が自分になっている。</p></div>
+        <div class="card pcard reveal" data-delay="1"><div class="pcard__no">02</div><h3 class="card__title">人を増やしても、ラクにならない</h3><p>採用しても<strong>管理工数が減らず</strong>、教育コストばかり増える。人手は増えたのに利益改善につながらない。</p></div>
+        <div class="card pcard reveal" data-delay="2"><div class="pcard__no">03</div><h3 class="card__title">紙・Excel・口頭が、混在している</h3><p>情報がバラバラで、<strong>特定の人がいないと業務が止まる</strong>。引き継ぎも属人化し、ノウハウが残らない。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 見せ場①（scene2：人のシルエット＝つながり） ============ -->
+  <section class="interlude" id="int-1">
+    <div class="interlude__inner">
+      <p class="interlude__eyebrow reveal">CONNECTION</p>
+      <h2 class="interlude__title display reveal" data-delay="1">人の力を、AIで引き出す。</h2>
+      <p class="interlude__lead reveal" data-delay="2">AIは、人を減らすための道具じゃない。<br>一人ひとりが本来の仕事に集中できるように。<br>人と人の“つながり”を、取り戻すために。</p>
+    </div>
+  </section>
+
+  <!-- ============ 強み（3つの理由） ============ -->
+  <section class="section strengths" id="strengths">
+    <div class="container">
+      <p class="section__eyebrow reveal">WHY AI LINQS</p>
+      <h2 class="section__title display reveal">“研修だけ・導入だけ”で、終わらせない。</h2>
+      <p class="section__sub reveal">同じ「AI支援」でも、私たちが大切にしているのはこの3つです。</p>
+      <div class="cards cards--3">
+        <div class="card reveal">
+          <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 13h2v8H3v-8Zm4-6h2v14H7V7Zm4 3h2v11h-2V10Zm4-7h2v18h-2V3Zm4 9h2v9h-2v-9Z"/></svg></div>
+          <h3 class="card__title">ROI起点で話す</h3>
+          <p>ツールの機能説明ではなく、<strong>工数削減と利益</strong>で語ります。投資に見合うかを一緒に判断します。</p>
+        </div>
+        <div class="card reveal" data-delay="1">
+          <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M4 4h16v4H4V4Zm0 6h16v4H4v-4Zm0 6h10v4H4v-4Z"/></svg></div>
+          <h3 class="card__title">アナログ現場に強い</h3>
+          <p>紙・口頭・Excelが前提の現場でも導入できる設計が得意。<strong>「うちは無理」と諦めていた会社こそ</strong>伸びしろがあります。</p>
+        </div>
+        <div class="card reveal" data-delay="2">
+          <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a5 5 0 0 1 5 5c0 2-1.2 3.4-2.5 4.5C13.5 12.3 13 13 13 14h-2c0-1.8 1-2.8 2.1-3.8C14 9.4 15 8.6 15 7a3 3 0 0 0-6 0H7a5 5 0 0 1 5-5Zm-1 14h2v2h-2v-2Z"/></svg></div>
+          <h3 class="card__title">定着まで伴走する</h3>
+          <p>研修や導入で終わらず、<strong>現場が自走できる状態まで</strong>一緒に作ります。経営者の隣で、共に勝ちにいきます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ サービス（料金非表示） ============ -->
+  <section class="section service" id="service">
+    <div class="container">
+      <p class="section__eyebrow reveal">SERVICE</p>
+      <h2 class="section__title reveal">「何を解決したいか」から選べます</h2>
+      <p class="section__sub reveal">まずはAI研修から。必要に応じて、業務の自動化や仕組み化まで広げられます。</p>
+      <div class="cards cards--4">
+        <a href="services.html" class="card svc-tile reveal"><span class="svc-tile__tag">まずはここから</span><h3>AI研修・教育</h3><p>社内にAIの使い方を定着させる3ヶ月。経営者の言葉に合わせて進めます。</p><span class="svc-tile__more">詳しく見る</span></a>
+        <a href="services.html" class="card svc-tile reveal" data-delay="1"><span class="svc-tile__tag">反復業務を自動化</span><h3>AI社員構築</h3><p>定型業務をAIが担い、担当者依存を解消。人がやらなくていい仕事を手放す。</p><span class="svc-tile__more">詳しく見る</span></a>
+        <a href="services.html" class="card svc-tile reveal" data-delay="2"><span class="svc-tile__tag">管理負荷を削減</span><h3>AI部署長構築</h3><p>管理者への確認集中をAIが整理。判断のボトルネックをほどきます。</p><span class="svc-tile__more">詳しく見る</span></a>
+        <a href="services.html" class="card svc-tile reveal" data-delay="3"><span class="svc-tile__tag">現場専用の仕組み</span><h3>社内アプリ・<br>業務システム制作</h3><p>現場固有のフローを、そのまま使える仕組みに。紙・Excel運用を置き換えます。</p><span class="svc-tile__more">詳しく見る</span></a>
+      </div>
+      <p class="service__note reveal">どれを選べばいいか迷ったら、<strong>まずはLINEで無料相談</strong>。現状をお聞きして、最適な進め方を一緒に整理します。<span class="muted">（料金は内容に応じてご提案します）</span></p>
+    </div>
+  </section>
+
+  <!-- ============ 見せ場②（scene3：協力・握手） ============ -->
+  <section class="interlude" id="int-2">
+    <div class="interlude__inner">
+      <p class="interlude__eyebrow reveal">PARTNERSHIP</p>
+      <h2 class="interlude__title display reveal" data-delay="1">ともに考え、ともに動く。</h2>
+      <p class="interlude__lead reveal" data-delay="2">外注先ではなく、伴走者として。<br>御社の現場に入り込み、課題を一緒に解く。<br>経営者の隣で、共に勝ちにいくパートナーへ。</p>
+    </div>
+  </section>
+
+  <!-- ============ 信頼・伴走 ============ -->
+  <section class="section trust" id="trust">
+    <div class="container">
+      <p class="section__eyebrow reveal">OUR STANCE</p>
+      <h2 class="section__title display reveal">数字より、変化の“構造”で語ります。</h2>
+      <p class="section__sub reveal">「すごい成果」を盛るのではなく、業務の何がどう変わるかを丁寧にお見せします。</p>
+      <div class="cards cards--3">
+        <div class="card tcard reveal"><h3 class="card__title">業種を選ばない対応幅</h3><p>建設・土木、運送・物流、多拠点企業、士業など、アナログ色の濃い現場まで幅広く対応してきました。</p></div>
+        <div class="card tcard reveal" data-delay="1"><h3 class="card__title">誇張しない事例の見せ方</h3><p>「導入前 → 導入後」で、業務の流れがどう変わったか。再現できる変化の構造でお伝えします。</p></div>
+        <div class="card tcard reveal" data-delay="2"><h3 class="card__title">経営者の隣で伴走</h3><p>外注先ではなく、共に考え、共に動き、共に成果を出すパートナーとして関わります。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 導入の流れ ============ -->
+  <section class="section flow" id="flow">
+    <div class="container">
+      <p class="section__eyebrow reveal">FLOW</p>
+      <h2 class="section__title reveal">「何から始めればいいか分からない」で大丈夫</h2>
+      <ol class="steps">
+        <li class="card step reveal"><div class="step__no">STEP 1</div><h3 class="card__title">LINEで無料AI相談</h3><p>まずは現状と悩みをお聞きします。準備は不要。決まっていなくて大丈夫です。</p></li>
+        <li class="card step reveal" data-delay="1"><div class="step__no">STEP 2</div><h3 class="card__title">課題整理と提案</h3><p>どこからAI化すべきか、優先順位と費用感をご提案します。</p></li>
+        <li class="card step reveal" data-delay="2"><div class="step__no">STEP 3</div><h3 class="card__title">設計・実装</h3><p>御社の現場に合わせて設計・構築。無理のない範囲から進めます。</p></li>
+        <li class="card step reveal" data-delay="3"><div class="step__no">STEP 4</div><h3 class="card__title">定着まで伴走</h3><p>使い続けられる状態へ。現場が自走できるところまで一緒に走ります。</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ 活用イメージ ============ -->
+  <!-- [要確認] 実在クライアントの成果数値は未確定のため数字は記載しない。画像は仮（写真が入ります）。 -->
+  <section class="section cases" id="cases">
+    <div class="container">
+      <p class="section__eyebrow reveal">CASES</p>
+      <h2 class="section__title reveal">こんな現場の課題に向き合っています</h2>
+      <div class="cards cards--3">
+        <article class="card ccard reveal"><div class="ccard__media imgph" aria-label="写真が入ります"><span>写真が入ります</span></div><div class="ccard__body"><div class="ccard__industry">建設・土木業</div><h3 class="card__title">日報・写真報告・承認依頼の集約</h3><p>現場ごとにバラバラだった報告を一本化。確認のために事務所へ戻る手間を減らす方向へ。</p></div></article>
+        <article class="card ccard reveal" data-delay="1"><div class="ccard__media imgph" aria-label="写真が入ります"><span>写真が入ります</span></div><div class="ccard__body"><div class="ccard__industry">運送・物流業</div><h3 class="card__title">配車補助・暗黙知の標準化</h3><p>ベテランの頭の中にあった配車の判断を、誰でも扱える形に。属人化をほどきます。</p></div></article>
+        <article class="card ccard reveal" data-delay="2"><div class="ccard__media imgph" aria-label="写真が入ります"><span>写真が入ります</span></div><div class="ccard__body"><div class="ccard__industry">多拠点企業</div><h3 class="card__title">承認フローの再設計</h3><p>社長への確認集中を解消し、現場で判断が回る仕組みへ。意思決定のスピードを上げます。</p></div></article>
+      </div>
+      <div class="cases__more reveal"><a href="contact.html" class="btn btn--glass">自社の課題を相談してみる</a></div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section faq" id="faq">
+    <div class="container container--narrow">
+      <p class="section__eyebrow reveal">FAQ</p>
+      <h2 class="section__title reveal">よくあるご質問</h2>
+      <div class="faq__list">
+        <details class="faq__item reveal"><summary>AIに詳しくないと使えませんか？</summary><div class="faq__a"><p>いいえ。むしろ「詳しくない」前提で、経営者の言葉に合わせて進めます。専門用語は使いません。</p></div></details>
+        <details class="faq__item reveal"><summary>どのくらいの期間で効果が出ますか？</summary><div class="faq__a"><p>コーチングは3ヶ月を基本に、現場で使える状態を目指します。内容によって最適な進め方をご提案します。</p></div></details>
+        <details class="faq__item reveal"><summary>中小企業でも導入できますか？</summary><div class="faq__a"><p>はい。紙・Excel・口頭中心の現場こそ、AIで変えられる伸びしろが大きい領域です。</p></div></details>
+        <details class="faq__item reveal"><summary>まず何から相談すればいいですか？</summary><div class="faq__a"><p>決まっていなくて大丈夫です。LINEで現状を聞かせてください。こちらで論点を整理します。</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 見せ場③（scene4：街＝未来） ============ -->
+  <section class="interlude" id="int-3">
+    <div class="interlude__inner">
+      <p class="interlude__eyebrow reveal">THE FUTURE</p>
+      <h2 class="interlude__title display reveal" data-delay="1">テクノロジーが、<br>地域の未来を変える。</h2>
+      <p class="interlude__lead reveal" data-delay="2">人とAIのハイブリッド経営を、日本の新しいスタンダードに。<br>その一歩を、淡路から、御社から。</p>
+    </div>
+  </section>
+
+  <!-- ============ 締めCTA ============ -->
+  <section class="cta-banner" id="contact">
+    <div class="cta-banner__scrim" aria-hidden="true"></div>
+    <div class="container cta-banner__inner">
+      <h2 class="cta-banner__title display reveal">まずは、LINEで無料相談から。</h2>
+      <p class="cta-banner__lead reveal" data-delay="1">完全無料・売り込みなし。自社のAI化ポイントを、一緒に整理しましょう。</p>
+      <a href="contact.html" class="btn btn--line btn--lg reveal" data-delay="2" data-line-cta>
+        <svg class="icon-line" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C6.5 2 2 5.7 2 10.2c0 4 3.5 7.4 8.3 8.1.3.07.76.22.87.5.1.26.07.66.03.92l-.14.85c-.04.26-.2 1 .9.55s5.9-3.48 8.06-5.96C21.4 13.6 22 12 22 10.2 22 5.7 17.5 2 12 2Z"/></svg>
+        LINEで無料AI相談
+      </a>
+      <p class="cta-banner__tel reveal" data-delay="3">お電話でも：<a href="tel:0799-72-4316">0799-72-4316</a> ／ 0799-72-2866</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ フッター ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <div class="logo logo--footer"><span class="logo__mark">AI</span><span class="logo__text">Linqs</span></div>
+      <p class="footer__desc">中小企業のためのAI導入パートナー。<br>研修から定着まで、経営者と“共に”。</p>
+    </div>
+    <div class="footer__info">
+      <!-- [要確認] 会社概要（運営法人=大永観光株式会社／設立年・法人格の最終確認） -->
+      <p><strong>AI Linqs</strong>（運営：大永観光株式会社）</p>
+      <p>〒656-2401 兵庫県淡路市岩屋1323</p>
+      <p>TEL：0799-72-4316 ／ 0799-72-2866</p>
+    </div>
+    <nav class="footer__nav" aria-label="フッターナビゲーション">
+      <ul>
+        <li><a href="services.html">サービス</a></li>
+        <li><a href="cases.html">実績</a></li>
+        <li><a href="about.html">会社概要</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+        <li><a href="privacy.html">プライバシーポリシー</a></li>
+      </ul>
+    </nav>
+  </div>
+  <p class="footer__copy">&copy; 2026 大永観光株式会社 / AI Linqs</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
