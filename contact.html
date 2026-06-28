@@ -11,12 +11,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Shippori+Mincho+B1:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=20260622a">
 </head>
 <body>
 
 <div class="world" id="world" aria-hidden="true">
-  <div class="scene scene--1" data-anchor="top" style="background-image:url('assets/scene-connect.svg')"></div>
+  <div class="scene scene--1" data-anchor="top" style="background-image:url('assets/bg-connect.jpg')"></div>
   <div class="world__grain"></div>
 </div>
 
@@ -64,14 +64,14 @@
 
       <!-- LINEブロック -->
       <div class="line-block reveal">
-        <div class="line-block__qr">QRコードが入ります<br>[要設定：LINE友だち追加QR]</div>
+        <div class="line-block__qr"><img src="assets/line-qr.png" alt="LINE友だち追加QRコード" width="140" height="140" style="display:block;border-radius:6px"></div>
         <h3>LINEで友だち追加して相談</h3>
         <p>完全無料・売り込みなし。気軽にメッセージを送ってください。</p>
         <a href="#" class="btn btn--line btn--lg" data-line-cta>
           <svg class="icon-line" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C6.5 2 2 5.7 2 10.2c0 4 3.5 7.4 8.3 8.1.3.07.76.22.87.5.1.26.07.66.03.92l-.14.85c-.04.26-.2 1 .9.55s5.9-3.48 8.06-5.96C21.4 13.6 22 12 22 10.2 22 5.7 17.5 2 12 2Z"/></svg>
           LINEで無料AI相談
         </a>
-        <p style="font-size:12px;color:rgba(255,255,255,.55);margin-top:14px">※ 友だち追加URLは設定後に反映します ［要設定：LINE URL］</p>
+        <p style="font-size:12px;color:rgba(255,255,255,.55);margin-top:14px">※ ボタンが開かない場合は、上のQRコードを読み取ってください。</p>
       </div>
 
       <!-- 直接連絡先 -->
@@ -108,6 +108,6 @@
   <p class="footer__copy">&copy; 2026 大永観光株式会社 / AI Linqs</p>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="js/main.js?v=20260622a"></script>
 </body>
 </html>

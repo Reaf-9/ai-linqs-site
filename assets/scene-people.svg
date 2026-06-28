@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 945" preserveAspectRatio="xMidYMid slice" role="img">
+<defs>
+<linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0" stop-color="#bfe0f5"/><stop offset="0.5" stop-color="#5b9fd4"/><stop offset="1" stop-color="#0e4f87"/>
+</linearGradient>
+<linearGradient id="ppl" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0" stop-color="#0b3b66" stop-opacity="0.95"/><stop offset="1" stop-color="#06294a" stop-opacity="0.98"/>
+</linearGradient>
+<radialGradient id="sun2" cx="0.5" cy="0.25" r="0.5">
+ <stop offset="0" stop-color="#eaf6ff" stop-opacity="0.9"/><stop offset="1" stop-color="#eaf6ff" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="1680" height="945" fill="url(#sky2)"/>
+<rect width="1680" height="945" fill="url(#sun2)"/>
+<g fill="#1a5a93" opacity="0.28">
+<rect x="0" y="775" width="59" height="170"/>
+<rect x="69" y="639" width="60" height="306"/>
+<rect x="139" y="634" width="72" height="311"/>
+<rect x="221" y="687" width="86" height="258"/>
+<rect x="317" y="583" width="65" height="362"/>
+<rect x="391" y="791" width="98" height="154"/>
+<rect x="499" y="532" width="66" height="413"/>
+<rect x="575" y="748" width="93" height="197"/>
+<rect x="678" y="803" width="68" height="142"/>
+<rect x="755" y="501" width="96" height="444"/>
+<rect x="862" y="806" width="44" height="139"/>
+<rect x="915" y="603" width="94" height="342"/>
+<rect x="1020" y="710" width="71" height="235"/>
+<rect x="1100" y="503" width="52" height="442"/>
+<rect x="1163" y="765" width="61" height="180"/>
+<rect x="1233" y="611" width="82" height="334"/>
+<rect x="1326" y="662" width="62" height="283"/>
+<rect x="1398" y="720" width="83" height="225"/>
+<rect x="1491" y="526" width="84" height="419"/>
+<rect x="1585" y="739" width="101" height="206"/>
+</g>
+<g fill="url(#ppl)">
+<rect x="85" y="750" width="70" height="244" rx="24"/>
+<circle cx="120" cy="731" r="24"/>
+<rect x="207" y="714" width="86" height="292" rx="30"/>
+<circle cx="250" cy="689" r="29"/>
+<rect x="325" y="654" width="70" height="340" rx="24"/>
+<circle cx="360" cy="634" r="24"/>
+<rect x="427" y="746" width="86" height="259" rx="30"/>
+<circle cx="470" cy="722" r="29"/>
+<rect x="525" y="703" width="70" height="291" rx="24"/>
+<circle cx="560" cy="683" r="24"/>
+<rect x="657" y="671" width="86" height="334" rx="30"/>
+<circle cx="700" cy="647" r="29"/>
+<rect x="805" y="736" width="70" height="258" rx="24"/>
+<circle cx="840" cy="716" r="24"/>
+<rect x="937" y="723" width="86" height="282" rx="30"/>
+<circle cx="980" cy="699" r="29"/>
+<rect x="1085" y="680" width="70" height="314" rx="24"/>
+<circle cx="1120" cy="660" r="24"/>
+<rect x="1197" y="742" width="86" height="263" rx="30"/>
+<circle cx="1240" cy="718" r="29"/>
+<rect x="1325" y="689" width="70" height="305" rx="24"/>
+<circle cx="1360" cy="669" r="24"/>
+<rect x="1457" y="668" width="86" height="338" rx="30"/>
+<circle cx="1500" cy="643" r="29"/>
+<rect x="1565" y="731" width="70" height="263" rx="24"/>
+<circle cx="1600" cy="711" r="24"/>
+</g>
+<g stroke="#cfeeff" stroke-width="1.4" opacity="0.5">
+<path d="M120 675 Q 185 588 250 639" fill="none"/>
+<path d="M250 639 Q 305 534 360 603" fill="none"/>
+<path d="M360 603 Q 415 535 470 675" fill="none"/>
+<path d="M560 639 Q 630 524 700 603" fill="none"/>
+<path d="M700 603 Q 770 543 840 675" fill="none"/>
+<path d="M840 675 Q 910 572 980 639" fill="none"/>
+<path d="M1240 675 Q 1300 572 1360 639" fill="none"/>
+<path d="M1500 603 Q 1550 557 1600 675" fill="none"/>
+</g>
+<g fill="#eaf7ff" opacity="0.85">
+<circle cx="120" cy="675" r="3.5"/>
+<circle cx="250" cy="639" r="3.5"/>
+<circle cx="360" cy="603" r="3.5"/>
+<circle cx="470" cy="675" r="3.5"/>
+<circle cx="560" cy="639" r="3.5"/>
+<circle cx="700" cy="603" r="3.5"/>
+<circle cx="840" cy="675" r="3.5"/>
+<circle cx="980" cy="639" r="3.5"/>
+<circle cx="1120" cy="603" r="3.5"/>
+<circle cx="1240" cy="675" r="3.5"/>
+<circle cx="1360" cy="639" r="3.5"/>
+<circle cx="1500" cy="603" r="3.5"/>
+<circle cx="1600" cy="675" r="3.5"/>
+</g>
+</svg>
